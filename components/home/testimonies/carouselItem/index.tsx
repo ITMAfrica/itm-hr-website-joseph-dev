@@ -39,6 +39,7 @@ export default function TestimonyItem({
               fill
               alt={item?.name ? `Photo of ${item.name}` : 'Testimonial author'}
               className="object-cover"
+              sizes="(max-width: 768px) 80px, 96px"
             />
           </div>
         </div>

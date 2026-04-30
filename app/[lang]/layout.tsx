@@ -75,7 +75,7 @@ export default async function Root({
   const resolvedParams = await params;
   const lang = resolvedParams.lang;
   return (
-    <html lang={lang} className="scroll-smooth">
+    <html lang={lang} className="scroll-smooth" data-scroll-behavior="smooth">
       <head>
         <StructuredData locale={lang} />
       </head>

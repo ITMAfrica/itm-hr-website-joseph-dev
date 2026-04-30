@@ -56,7 +56,7 @@ export default function CarouselItem({
           fill
           alt=""
           priority={index === 0}
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, 85vw"
           aria-hidden
         />
         <Image
@@ -65,7 +65,7 @@ export default function CarouselItem({
           fill
           alt=""
           priority={index === 0}
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, 85vw"
           aria-hidden
         />
         {bgWhite && (

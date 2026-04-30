@@ -13,6 +13,7 @@ function LogoImage({ logo }: { logo: PartnerLogo }) {
         width={logo.width}
         height={logo.height}
         className="select-none"
+        style={{ width: 'auto', height: 'auto' }}
       />
     </div>
   );
