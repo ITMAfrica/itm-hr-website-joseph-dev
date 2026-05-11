@@ -167,7 +167,10 @@
     },
     "companyProfile": {
       "text": "Company profile",
-      "title": "Download the ITM company profile (PDF)"
+      "title": "Download the ITM company profile (PDF)",
+      "previewTitle": "ITM Company Profile",
+      "downloadBtn": "Download",
+      "closeBtn": "Close"
     },
     "footer": {
       "text": "Keep up to date with the latest features and versions by joining our newsletter.",

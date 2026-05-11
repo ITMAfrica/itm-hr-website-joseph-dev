@@ -1,12 +1,13 @@
-'use client';
-import { getDictionary } from '@/get-dictionary';
-import ButtonOulined from '@/components/global/buttons/btn_outlined';
-import SectionTitle from '@/components/global/section_title';
-import AboutImagesDesign from './aboutImagesDesign';
-import { useMemo, useState } from 'react';
-import { usePathname } from 'next/navigation';
-import { CODE, getCompanyProfilePdfPath, getCountryCode } from '@/helpers';
-import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
+"use client";
+import { getDictionary } from "@/get-dictionary";
+import ButtonOulined from "@/components/global/buttons/btn_outlined";
+import SectionTitle from "@/components/global/section_title";
+import AboutImagesDesign from "./aboutImagesDesign";
+import CompanyProfilePreviewModal from "@/components/global/modal/companyProfilePreview";
+import { useMemo, useState } from "react";
+import { usePathname } from "next/navigation";
+import { CODE, getCompanyProfilePdfPath, getCountryCode } from "@/helpers";
+import { COUNTRY_SITE_CODES } from "@/lib/country-site-codes";
 
 export default function HomeAbout({ params }: { params: any }) {
   const lang: string = params.lang;
@@ -17,16 +18,19 @@ export default function HomeAbout({ params }: { params: any }) {
   const data = dictionary?.[code]?.pages.home.about;
   const companyProfile = dictionary?.global?.companyProfile;
   const pathCountry = useMemo(() => {
-    const seg = pathname.split('/').filter(Boolean)[1]?.toLowerCase();
+    const seg = pathname.split("/").filter(Boolean)[1]?.toLowerCase();
     return seg && COUNTRY_SITE_CODES.has(seg) ? seg : undefined;
   }, [pathname]);
   const companyProfileHref = getCompanyProfilePdfPath(
-    pathCountry ?? country
+    pathCountry ?? country,
+    lang,
   );
+  const companyProfilePreviewUrl = `${companyProfileHref}${companyProfileHref.includes("?") ? "&" : "?"}preview=true`;
+  const [isPreviewOpen, setIsPreviewOpen] = useState(false);
   const [CURRENT_COUNTRY, SET_CURRENT_COUNTRY] = useState({
     code: CODE,
-    fr: 'Congo Kinshasa',
-    en: 'Congo Kinshasa',
+    fr: "Congo Kinshasa",
+    en: "Congo Kinshasa",
   });
   return (
     <section className="md:flex justify-center w-full mx-auto lg:py-20 py-10 bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
@@ -45,19 +49,32 @@ export default function HomeAbout({ params }: { params: any }) {
             <div className="mx-auto w-fit lg:w-full flex flex-wrap gap-3 justify-center lg:justify-start items-center">
               <ButtonOulined {...data.btnMore} key={1} />
               {companyProfile?.text && companyProfile?.title ? (
-                <a
-                  href={companyProfileHref}
-                  download
+                <button
+                  onClick={() => setIsPreviewOpen(true)}
                   title={companyProfile.title}
-                  className="block w-44 py-4 text-lg font-semibold text-center text-blue_itm_good hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-blue_itm_good hover:border-blue_itm_aqua_marine transition duration-800"
+                  className="block w-44 py-4 text-lg font-semibold text-center text-blue_itm_good hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-blue_itm_good hover:border-blue_itm_aqua_marine transition duration-800 cursor-pointer"
                 >
                   {companyProfile.text}
-                </a>
+                </button>
               ) : null}
             </div>
           </div>
         </div>
       </div>
+
+      {/* Company Profile Preview Modal */}
+      <CompanyProfilePreviewModal
+        isOpen={isPreviewOpen}
+        onClose={() => setIsPreviewOpen(false)}
+        previewUrl={companyProfilePreviewUrl}
+        downloadUrl={companyProfileHref}
+        previewTitle={
+          companyProfile?.previewTitle || companyProfile?.title || ""
+        }
+        downloadTitle={companyProfile?.title || ""}
+        downloadBtnText={companyProfile?.downloadBtn || "Download"}
+        closeBtnText={companyProfile?.closeBtn || "Close"}
+      />
     </section>
   );
 }

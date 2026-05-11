@@ -166,7 +166,10 @@
     },
     "companyProfile": {
       "text": "Profil d'entreprise",
-      "title": "Télécharger le profil d'entreprise ITM (PDF)"
+      "title": "Télécharger le profil d'entreprise ITM (PDF)",
+      "previewTitle": "Profil d'Entreprise ITM",
+      "downloadBtn": "Télécharger",
+      "closeBtn": "Fermer"
     },
     "footer": {
       "text": "Restez informé des dernières fonctionnalités et versions en rejoignant notre newsletter.",
@@ -310,7 +313,7 @@
             }
           ]
         },
-"about": {
+        "about": {
           "title": "QUI SOMMES-NOUS ?",
           "subtitle": "ITM HR",
           "paragraph": "ITM HR est un fournisseur de premier plan de solutions en matière de ressources humaines, offrant des services sur mesure dans 18 pays d'Afrique. Nous sommes spécialisés dans le recrutement, la gestion des salaires, l'optimisation des performances et la formation des employés, aidant ainsi les entreprises à améliorer leurs effectifs et leur efficacité opérationnelle. Faisant partie d'ITM Holding, nous tirons parti des ressources et de l'expertise d'un conglomérat panafricain pour fournir des soluciones conformes et efficaces qui soutiennent le succès à long terme des entreprises. En mettant l'accent sur l'excellence opérationnelle et le développement des employés, ITM HR est votre partenaire de confiance pour une croissance durable.",
