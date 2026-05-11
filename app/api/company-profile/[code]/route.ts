@@ -142,6 +142,8 @@ export async function GET(
         "Content-Type": "application/pdf",
         "Content-Disposition": `${isPreview ? "inline" : "attachment"}; filename="${downloadFilenameForCode(code, validLang)}"`,
         "Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Security-Policy": "frame-ancestors 'self'",
       },
     });
   } catch {

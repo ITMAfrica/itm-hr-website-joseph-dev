@@ -90,7 +90,7 @@ export default function CompanyProfilePreviewModal({
             src={previewUrl}
             title={previewTitle}
             className="w-full h-full border-0"
-            sandbox="allow-scripts allow-same-origin"
+            sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
           />
         </div>
       </div>
