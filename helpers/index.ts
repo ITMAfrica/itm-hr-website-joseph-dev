@@ -206,7 +206,7 @@ export const getCountryCode = (country: string | undefined) => {
     case "ga":
       return "ga";
     case "gn":
-      return "gn";
+      return "cd";
 
     default:
       return "cd";

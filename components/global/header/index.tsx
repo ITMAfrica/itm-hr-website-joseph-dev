@@ -7,7 +7,7 @@ import logo from '@/public/logos/logo_rdc.webp';
 import NavLinkCard from '@/components/global/cards/navLink';
 import CardLang from '@/components/global/cards/lang';
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { MdOutlineMenu, MdOutlineMenuOpen } from 'react-icons/md';
 import { CODE, getCookie, setCookie } from '@/helpers';
 import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
@@ -36,9 +36,21 @@ export default function HomeHeader({ params }: propsPage) {
 
   const [openNavigation, setOpenNavigation] = useState(false);
   const [scrollToBottom, setScrollToBottom] = useState(0);
+  const closingMenuRef = useRef(false);
 
-  const handleNavigation = () => {
-    setOpenNavigation((state: any) => !state);
+  const closeMenu = () => {
+    closingMenuRef.current = true;
+    setOpenNavigation(false);
+    window.setTimeout(() => {
+      closingMenuRef.current = false;
+    }, 400);
+  };
+  const closeNavigation = (
+    e: React.MouseEvent | React.PointerEvent
+  ) => {
+    e.preventDefault();
+    e.stopPropagation();
+    closeMenu();
   };
   function getHref() {
     if (CURRENT_CODE && CURRENT_CODE != CODE) {
@@ -84,8 +96,11 @@ export default function HomeHeader({ params }: propsPage) {
           <div className="flex items-center">
             {root != undefined ? (
               <div
-                onClick={handleNavigation}
-                className="w-fit lg:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
+                onClick={() => {
+                  if (closingMenuRef.current) return;
+                  setOpenNavigation(true);
+                }}
+                className="w-fit lg:hidden mr-1 text-2xl p-1 cursor-pointer rounded-md hover:bg-blue_itm_primary/10"
               >
                 <MdOutlineMenu />
               </div>
@@ -117,53 +132,57 @@ export default function HomeHeader({ params }: propsPage) {
             </>
           ) : null}
         </div>
-        {openNavigation ? (
-          <div className="w-full lg:hidden flex z-50 bg-black/80 h-full fixed top-0 right-0 bottom-0 left-0">
-            <div className="w-10/12 p-5 h-full bg-white rounded-e-xl flex flex-col justify-between">
-              <div className="w-full">
-                <div className="w-full flex items-center justify-between pr-4 mb-3">
-                  <div
-                    onClick={handleNavigation}
-                    className="w-fit lg:hidden mr-1 text-2xl p-1 cursor-pointer pl-0 rounded-md hover:pl-1 hover:bg-blue_itm_primary/10"
-                  >
-                    <MdOutlineMenuOpen />
-                  </div>
-                  <Link
-                    onClick={handleNavigation}
-                    href={getHref()}
-                    className="block w-fit h-fit md:pr-5 mr-1"
-                  >
-                    <Image
-                      src={logo.src}
-                      className="md:h-8 h-4 w-fit"
-                      height={50}
-                      width={194}
-                      alt="ITM Africa"
-                      style={{
-                        maxWidth: '100%',
-                        height: 'auto',
-                      }}
-                    />
-                  </Link>
+      </div>
+      {openNavigation ? (
+        <div className="lg:hidden z-[60] bg-black/80 fixed inset-0 flex">
+          <div className="w-[280px] max-w-[80%] p-5 h-full bg-white rounded-e-xl flex flex-col justify-between">
+            <div className="w-full">
+              <div className="w-full flex items-center justify-between pr-4 mb-3">
+                <div
+                  onPointerDown={closeNavigation}
+                  onClick={closeNavigation}
+                  className="w-fit lg:hidden mr-1 shrink-0 text-2xl p-1 cursor-pointer rounded-md hover:bg-blue_itm_primary/10"
+                >
+                  <MdOutlineMenuOpen />
                 </div>
-                <nav className="w-full bg-white items-center justify-evenly">
-                  <NavLinkCard {...data.group} key={10} />
-                  {data?.links.map((item: linkHeader, index: number) => (
-                    <NavLinkCard
-                      {...item}
-                      closeModal={handleNavigation}
-                      full
-                      key={index}
-                    />
-                  ))}
-                </nav>
+                <Link
+                  onClick={closeMenu}
+                  href={getHref()}
+                  className="block w-fit h-fit md:pr-5 mr-1"
+                >
+                  <Image
+                    src={logo.src}
+                    className="md:h-8 h-4 w-fit"
+                    height={50}
+                    width={194}
+                    alt="ITM Africa"
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto',
+                    }}
+                  />
+                </Link>
               </div>
+              <nav className="w-full bg-white flex flex-col items-start">
+                <NavLinkCard
+                  {...data.group}
+                  closeModal={closeMenu}
+                  full
+                  key={10}
+                />
+                {data?.links.map((item: linkHeader, index: number) => (
+                  <NavLinkCard
+                    {...item}
+                    closeModal={closeMenu}
+                    full
+                    key={index}
+                  />
+                ))}
+              </nav>
             </div>
           </div>
-        ) : (
-          ''
-        )}
-      </div>
+        </div>
+      ) : null}
     </header>
   );
 }

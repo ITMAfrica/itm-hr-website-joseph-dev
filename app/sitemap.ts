@@ -20,6 +20,7 @@ const COUNTRIES = [
   'ci',
   'sn',
   'de',
+  'gn',
 ];
 
 const LANGUAGES = ['en', 'fr'];

@@ -62,7 +62,7 @@ export default function CountriesLandingPage() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="h-[450px] overflow-y-scroll scrollbar-default"
               >
-                <div className="w-full h-full flex justify-between pb-5 px-3  flex-wrap">
+                <div className="w-full h-full grid grid-cols-2 gap-4 pb-5 px-3">
                   {
                     //Display all contries without Rwanda when your location is cd
                     entities_to_display(currentLocation, entities)

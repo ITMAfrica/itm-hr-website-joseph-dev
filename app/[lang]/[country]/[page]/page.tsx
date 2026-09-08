@@ -78,6 +78,8 @@ export default async function PageCountry({ params }: { params: any }) {
       return getComponent({ params: resolvedParams });
     case 'sn':
       return getComponent({ params: resolvedParams });
+    case 'gn':
+      return getComponent({ params: resolvedParams });
     case 'about-us':
       return <AboutPage params={resolvedParams} />;
     case 'a-propos-de-nous':

@@ -31,6 +31,7 @@ import zaFlag from '@/public/assets/flag/za.png';
 import deFlag from '@/public/assets/flag/de.png';
 import ciFlag from '@/public/assets/flag/ci.png';
 import snFlag from '@/public/assets/flag/sn.png';
+import gnFlag from '@/public/assets/flag/gn.png';
 import cdLogo from '@/public/assets/logo/cd.png';
 import hrLogo from '@/public/assets/logo/hr.png';
 import aoLogo from '@/public/assets/logo/ao.png';
@@ -648,6 +649,15 @@ export const entities = [
     code: 'sn',
     flag: snFlag,
     logo: hrLogo,
+  },
+  {
+    fr: 'Guinée',
+    en: 'Guinea',
+    name: 'ITM SARL',
+    href: '/fr/gn',
+    code: 'gn',
+    flag: gnFlag,
+    logo: cdLogo,
   },
 ];
 
