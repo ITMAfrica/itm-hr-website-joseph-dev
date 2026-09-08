@@ -4,8 +4,8 @@ import { getDictionary } from '@/get-dictionary';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/logos/HR.webp';
-import { CODE, getCountryCode, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
-import { useState } from 'react';
+import { CODE, getCookie, getCountryCode, setCookie, KAZIPRO_HREF, TALENTPRO_HREF } from '@/helpers';
+import { useEffect, useState } from 'react';
 import NavLinkFooter from './navLink';
 import newsLetterSchema from './newsLetterSchema';
 import { usePathname } from 'next/navigation';
@@ -17,6 +17,7 @@ import { FaInstagram } from 'react-icons/fa6';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { entitiesInfos } from '@/lib/data';
+import { COUNTRY_SITE_CODES } from '@/lib/country-site-codes';
 import { IoHomeOutline } from 'react-icons/io5';
 
 type linkHeader = {
@@ -44,10 +45,21 @@ export default function Footer({ params }: { params: any }) {
     }
   }
 
-  //Getting dynamics infos for social medias
-  const country: string = params.country;
-  const code = getCountryCode(country);
-  const socials_network_infos = entitiesInfos[code].social_medias;
+  useEffect(
+    function () {
+      const seg = pathname.split('/').filter(Boolean)[1]?.toLowerCase();
+      if (seg && COUNTRY_SITE_CODES.has(seg)) {
+        setCookie('country', seg);
+      }
+      SET_CURRENT_CODE(getCookie('country', document?.cookie) || CODE);
+    },
+    [lang, pathname]
+  );
+
+  const code = getCountryCode(CURRENT_CODE);
+  const socials_network_infos = (
+    entitiesInfos[code] || entitiesInfos[CODE]
+  ).social_medias;
 
   const {
     handleSubmit,
@@ -182,7 +194,7 @@ export default function Footer({ params }: { params: any }) {
           </div>
         </section>
       </div>
-      <section className="md:flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4">
+      <section className="md:flex justify-between items-center md:w-10/12 w-11/12 mx-auto py-4 border-t border-white">
         <div className="w-fit font-semibold font-open">
           {`© ${new Date().getFullYear()} ITM Africa. All rights reserved.`}
         </div>

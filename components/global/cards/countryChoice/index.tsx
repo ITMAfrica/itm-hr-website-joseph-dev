@@ -22,11 +22,11 @@ export default function CardCountryChoice(props: any) {
         return e;
       }}
       title={props[lang]}
-      className="lg:w-[200px] text-black w-[48%] group block h-[100px] mb-5 relative overflow-hidden rounded-2xl shadow-2xl"
+      className="w-full text-black group block h-[100px] relative overflow-hidden rounded-2xl shadow-2xl"
     >
-      <div className="w-full h-full shadow-2xl absolute bottom-0 z-10 right-0 p-4">
+      <div className="absolute inset-0 z-10 flex items-center justify-between gap-3 p-4">
         <h3
-          className={`group-hover:font-bold lg:text-sm text-xs w-1/2 group-hover:text-blue_itm_aqua_marine ${
+          className={`group-hover:font-bold lg:text-sm text-xs min-w-0 flex-1 group-hover:text-blue_itm_aqua_marine ${
             props.code == CURRENT_CODE
               ? 'text-blue_itm_aqua_marine font-bold'
               : 'font-medium '
@@ -34,13 +34,16 @@ export default function CardCountryChoice(props: any) {
         >
           {props[lang]}
         </h3>
-        <div className="w-fit absolute bottom-4 right-4">
-          <div className="relative w-[65px] h-[45px] rounded-lg overflow-hidden">
-            <Image src={props.flag} alt={`Flag ${props[lang]}`} fill />
-          </div>
+        <div className="relative w-[65px] h-[45px] shrink-0 rounded-lg overflow-hidden">
+          <Image
+            src={props.flag}
+            alt={`Flag ${props[lang]}`}
+            fill
+            sizes="65px"
+          />
         </div>
       </div>
-      <Image src={bg} alt="Bg" fill />
+      <Image src={bg} alt="Bg" fill sizes="(max-width: 768px) 50vw, 25vw" />
     </Link>
   );
 }

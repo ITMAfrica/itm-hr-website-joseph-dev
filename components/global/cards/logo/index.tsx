@@ -43,6 +43,7 @@ export default function CardLogo() {
         height={100}
         width={100}
         alt="ITM Africa logo"
+        priority
         style={{
           maxWidth: '100%',
           height: 'auto',

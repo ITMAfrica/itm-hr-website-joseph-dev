@@ -81,7 +81,7 @@ export default function ModalCountryChoice({ init = false }: any) {
               <h1 className="font-medium text-xl text-center w-full pb-10">
                 {data?.title}
               </h1>
-              <div className="w-full h-full flex justify-between  pb-5 px-3  flex-wrap">
+              <div className="w-full h-full grid grid-cols-2 gap-4 pb-5 px-3">
                 {
                   //Display all contries without Rwanda when your location is cd
                   entities_to_display(currentLocation, entities)

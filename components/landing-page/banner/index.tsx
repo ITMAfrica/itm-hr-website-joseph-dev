@@ -45,6 +45,8 @@ export default function BannerLandingPage({ params }: { params: any }) {
             src={banner}
             className="hidden sm:inline w-full bg-center rounded-xl"
             fill
+            priority
+            sizes="(min-width: 768px) 83vw, 100vw"
             alt="Bg"
             style={{
               objectFit: 'cover',
@@ -55,6 +57,8 @@ export default function BannerLandingPage({ params }: { params: any }) {
             src={banner2}
             className="inline sm:hidden w-full bg-center rounded-xl"
             fill
+            priority
+            sizes="83vw"
             alt="Bg"
             style={{
               objectFit: 'cover',

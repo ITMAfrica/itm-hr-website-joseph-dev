@@ -18,16 +18,14 @@ import christelle from '@/public/assets/teams/za/christelle.jpg';
 import nokukhanya from '@/public/assets/teams/za/nokukhanya.jpg';
 
 //Bénin
-import alain from '@/public/assets/teams/bn/bn_alain.jpeg';
 import diane from '@/public/assets/teams/bn/bn_diane.jpg';
-import jane from '@/public/assets/teams/bn/bn_jane.png';
-import jean from '@/public/assets/teams/bn/bn_jean.jpeg';
-import sandra from '@/public/assets/teams/bn/bn_sandra.jpeg';
+import jean from '@/public/assets/teams/bn/bn_jean.jpg';
+import aaron from '@/public/assets/teams/bn/bn_aaron.jpg';
+import imane from '@/public/assets/teams/bn/bn_imane.jpg';
+import fernand from '@/public/assets/teams/bn/bn_fernand.jpg';
+import hamdane from '@/public/assets/teams/bn/bn_hamdane.jpg';
 import penya from '@/public/assets/teams/bn/bn_penya.jpg';
-import roland from '@/public/assets/teams/bn/bn_roland.jpeg';
-import tristan from '@/public/assets/teams/bn/bn_tristan.jpeg';
-import josaphat from '@/public/assets/teams/bn/bn_josaphat.jpeg';
-import faizath from '@/public/assets/teams/bn/bn_faizath.jpg';
+import thomas from '@/public/assets/teams/bn/bn_thomas.jpg';
 
 //Nigéria
 import abah from '@/public/assets/teams/ng/abah.png';
@@ -177,30 +175,42 @@ export const team_members: any = {
       image: christelle,
     },
   ],
-  bn: [
+  bj: [
     {
       name: 'Diane ATCHOKOSSI',
-      position: 'Directrice Générale',
+      position: 'Managing Director',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: diane,
     },
     {
-      name: 'Alain HINSON',
-      position: 'Responsable Financier',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: alain,
-    },
-    {
-      name: 'Jane JOSIAH',
-      position: 'Assistant Sous-traitance',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: jane,
-    },
-    {
       name: 'Jean de Dieu ASSOGBA',
-      position: 'Superviseur RH & Chargé de recrutement',
+      position: 'Responsable RH',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: jean,
+    },
+    {
+      name: 'Aaron TSHOVO',
+      position: 'Chargé Ressources Humaines',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: aaron,
+    },
+    {
+      name: 'Imane ADEGBOLA',
+      position: 'Assistante RH',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: imane,
+    },
+    {
+      name: 'Fernand ADANKON',
+      position: 'Chargé de communication',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: fernand,
+    },
+    {
+      name: 'Hamdane ISSFOU',
+      position: 'Assistant Formation',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: hamdane,
     },
     {
       name: 'Pénnya GANYE',
@@ -209,34 +219,10 @@ export const team_members: any = {
       image: penya,
     },
     {
-      name: 'Roland EZINMEGNON',
-      position: 'Responsable RH',
+      name: 'Thomas SOMISSOU',
+      position: 'Technicien de surface',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: roland,
-    },
-    {
-      name: 'Sandra AMOUSSOU',
-      position: 'Assistante Administrative',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: sandra,
-    },
-    {
-      name: 'Tristan ALOMA',
-      position: 'Responsable Sous-traitance et Opérations',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: tristan,
-    },
-    {
-      name: 'Josaphat MULENDE',
-      position: 'Responsable Sous-traitance',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: josaphat,
-    },
-    {
-      name: 'Faïzath Hounkanrin',
-      position: 'Finance Internship',
-      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
-      image: faizath,
+      image: thomas,
     },
   ],
   ng: [
