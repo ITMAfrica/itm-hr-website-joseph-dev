@@ -67,9 +67,9 @@ export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
         >
           <Image
             src={flag[lang]}
-            height={12 * 0.2}
-            width={16 * 0.2}
-            className="h-fit w-fit block mr-1 rounded-sm hover:cursor-pointer"
+            height={16}
+            width={20}
+            className="h-4 w-5 shrink-0 object-cover block mr-1 rounded-sm hover:cursor-pointer"
             alt="drapeau"
           />
           <span className="text-sm align-middle mr-1 font-normal uppercase cursor-pointer">
@@ -91,9 +91,9 @@ export default function CardLang({ langs }: { links: any[]; langs: any[] }) {
                 >
                   <Image
                     src={flag[item.key]}
-                    height={12 * 0.2}
-                    width={16 * 0.2}
-                    className="h-fit w-fit block mr-1 rounded-sm"
+                    height={16}
+                    width={20}
+                    className="h-4 w-5 shrink-0 object-cover block mr-1 rounded-sm"
                     alt="drapeau"
                   />
                   {item.tag}

@@ -57,9 +57,9 @@ export default function CardCountry({ header = false }: { header?: boolean }) {
           {CURRENT_IMAGE && (
             <Image
               src={CURRENT_IMAGE}
-              height={12 * 0.2}
-              width={16 * 0.2}
-              className="h-fit w-fit block mr-1 rounded-sm"
+              height={16}
+              width={20}
+              className="h-4 w-5 shrink-0 object-cover block mr-1 rounded-sm"
               alt="drapeau"
             />
           )}
