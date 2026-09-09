@@ -36,6 +36,15 @@ import tzImg12 from '@/public/pages/home/partners/tz/img12.webp';
 import tzImg13 from '@/public/pages/home/partners/tz/img13.webp';
 import tzImg14 from '@/public/pages/home/partners/tz/img14.webp';
 
+// Logos spécifiques Bénin
+import bjUba from '@/public/pages/home/partners/bj/uba.webp';
+import bjPac from '@/public/pages/home/partners/bj/pac.webp';
+import bjNovarea from '@/public/pages/home/partners/bj/novarea.webp';
+import bjSpiro from '@/public/pages/home/partners/bj/spiro.webp';
+import bjMoov from '@/public/pages/home/partners/bj/moov.webp';
+import bjKaju from '@/public/pages/home/partners/bj/kaju.webp';
+import bjPartainer from '@/public/pages/home/partners/bj/partainer.webp';
+
 export type PartnerLogo = {
   src: StaticImageData;
   width: number;
@@ -76,6 +85,15 @@ const COUNTRY_PARTNER_LOGOS: Record<string, PartnerLogo[]> = {
     { src: tzImg12, width: 130, height: 130 },
     { src: tzImg13, width: 130, height: 130 },
     { src: tzImg14, width: 130, height: 130 },
+  ],
+  bj: [
+    { src: bjUba, width: 160, height: 70, alt: 'UBA' },
+    { src: bjPac, width: 140, height: 110, alt: 'Port Autonome de Cotonou' },
+    { src: bjNovarea, width: 180, height: 60, alt: 'Novarea Textiles' },
+    { src: bjSpiro, width: 160, height: 70, alt: 'Spiro' },
+    { src: bjMoov, width: 160, height: 80, alt: 'Moov Africa' },
+    { src: bjKaju, width: 120, height: 33, alt: 'Kaju Africa' },
+    { src: bjPartainer, width: 140, height: 100, alt: 'Partainer' },
   ],
 };
 

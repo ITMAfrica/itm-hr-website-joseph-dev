@@ -2,7 +2,7 @@ import recrutement from '@/public/pages/home/services/service1.png';
 import service1 from '@/public/assets/services/service1.png';
 import service2 from '@/public/assets/services/service2.png';
 import service3 from '@/public/assets/services/service3.png';
-import service4 from '@/public/assets/services/service4.png';
+import service4 from '@/public/assets/services/service4.jpg';
 import service5 from '@/public/assets/services/service5.png';
 import service6 from '@/public/assets/services/service6.jpg';
 import service7 from '@/public/assets/services/service7.png';
@@ -91,7 +91,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Recrutement et acquisition de talents',
-      icon: service2,
+      icon: service10,
       description:
         "Trouver les bonnes personnes est essentiel pour la croissance. Nos services de recherche de talents vous mettent en relation avec les meilleurs candidats, que vous cherchiez à pourvoir des postes spécialisés ou à embaucher à grande échelle. Nous utilisons une combinaison de technologie et d'expertise locale pour trouver la bonne personne pour votre entreprise.",
       image: personnelService,
@@ -211,7 +211,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Solutions Team Building',
-      icon: service10,
+      icon: service2,
       description:
         "Des équipes fortes conduisent à des entreprises fortes. Nos activités de consolidation d'équipe sont conçues pour améliorer la communication, le travail d'équipe et la productivité. Elles sont amusantes, engageantes et adaptées aux besoins de votre équipe.",
       image: formationService,
@@ -302,7 +302,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Recruitment and Talent Acquisition',
-      icon: service2,
+      icon: service10,
       description:
         "Finding the right people is essential for growth. Our talent sourcing services connect you with the best candidates, whether you're looking to fill specialized roles or hire at scale. We use a combination of technology and local expertise to find the right fit for your company.",
       image: personnelService,
@@ -416,7 +416,7 @@ export const servicesHome: any = {
     },
     {
       name: 'Team Building Solutions',
-      icon: service10,
+      icon: service2,
       description:
         'Strong teams lead to strong businesses. Our team-building activities are designed to improve communication, teamwork, and productivity. They’re fun, engaging, and tailored to your team’s needs.',
       image: recruitmentService,
