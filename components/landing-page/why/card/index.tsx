@@ -33,7 +33,7 @@ export default function CardLandingPage({
         className="h-full w-full absolute z-0 opacity-10"
       />
       <div className="w-fit h-fit z-10">
-        <h2 className={`text-3xl mb-3 font-sans ${index % 2 == 0 ? 'text-blue_itm_aqua_marine' : 'text-blue_itm_title_blue'}`}>
+        <h2 className={`text-3xl mb-3 font-sans ${index % 2 == 0 ? 'text-blue_itm_aqua_marine' : 'text-white'}`}>
           {title}
         </h2>
         <p className="text-lg text-white">{text}</p>
