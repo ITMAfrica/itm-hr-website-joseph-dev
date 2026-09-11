@@ -4,12 +4,10 @@ export default function CardTeam({
   name,
   position,
   image,
-  text,
 }: {
   name: string;
   position: string;
   image: any;
-  text: string;
 }) {
   return (
     <article className="w-[80vw] sm:w-[41vw] md:w-[340px] lg:w-[280px] mx-[5px] h-[475px] relative overflow-hidden rounded-xl">
@@ -24,7 +22,6 @@ export default function CardTeam({
         <h1 className="font-bold text-xl text-blue_itm_secondary py-1">
           {position}
         </h1>
-        <p className="text-xs text-white">{text}</p>
       </div>
     </article>
   );
