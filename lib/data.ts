@@ -893,7 +893,7 @@ export const entitiesInfos: any = {
       facebook: 'https://www.facebook.com/profile.php?id=100080658041714',
       linkedin: 'https://www.linkedin.com/company/105272657/',
       instagram: 'https://www.instagram.com/itm_benin_?igsh=OTVoNmgzaGh3d2Uz',
-      twitter: 'https://twitter.com/ItmRdc',
+      twitter: '',
     },
   },
   ng: {

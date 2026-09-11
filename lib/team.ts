@@ -26,6 +26,7 @@ import fernand from '@/public/assets/teams/bn/bn_fernand.jpg';
 import hamdane from '@/public/assets/teams/bn/bn_hamdane.jpg';
 import penya from '@/public/assets/teams/bn/bn_penya.jpg';
 import thomas from '@/public/assets/teams/bn/bn_thomas.jpg';
+import landry from '@/public/assets/teams/bn/bn_landry.jpg';
 
 //Nigéria
 import abah from '@/public/assets/teams/ng/abah.png';
@@ -187,6 +188,12 @@ export const team_members: any = {
       position: 'Responsable RH',
       text: 'Driving sustainable growth and operational excellence for all our stakeholders',
       image: jean,
+    },
+    {
+      name: 'Landry CHABI',
+      position: 'Superviseur RH Senior',
+      text: 'Driving sustainable growth and operational excellence for all our stakeholders',
+      image: landry,
     },
     {
       name: 'Aaron TSHOVO',

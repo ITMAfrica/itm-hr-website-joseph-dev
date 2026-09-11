@@ -163,15 +163,17 @@ export default function Footer({ params }: { params: any }) {
                   <FaFacebookF />
                 </Link>
               </li>
-              <li className="mr-2">
-                <Link
-                  href={socials_network_infos.twitter}
-                  target="_blank"
-                  className="block w-fit rounded-lg border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
-                >
-                  <FaXTwitter />
-                </Link>
-              </li>
+              {socials_network_infos.twitter ? (
+                <li className="mr-2">
+                  <Link
+                    href={socials_network_infos.twitter}
+                    target="_blank"
+                    className="block w-fit rounded-lg border border-white/30 p-2 mr-2 hover:bg-primary hover:text-white transition duration-500"
+                  >
+                    <FaXTwitter />
+                  </Link>
+                </li>
+              ) : null}
               <li className="mr-2">
                 <Link
                   href={socials_network_infos.linkedin}
