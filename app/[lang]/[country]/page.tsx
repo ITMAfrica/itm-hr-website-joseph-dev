@@ -31,6 +31,7 @@ const COUNTRY_CODES = [
   'ci',
   'sn',
   'gn',
+  'dz',
 ];
 
 const PAGE_PATHS: Record<string, string> = {
@@ -144,6 +145,8 @@ export default async function PageCountry({ params }: { params: any }) {
     case 'sn':
       return <HomePage params={resolvedParams} />;
     case 'gn':
+      return <HomePage params={resolvedParams} />;
+    case 'dz':
       return <HomePage params={resolvedParams} />;
     case 'about-us':
       return <AboutPage params={resolvedParams} />;

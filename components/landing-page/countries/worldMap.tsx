@@ -26,6 +26,7 @@ const NUMERIC_ID: Record<string, string> = {
   ci: '384',
   sn: '686',
   gn: '324',
+  dz: '012',
 };
 
 const WIDTH = 1000;

@@ -24,6 +24,11 @@ const REGIONS: {
     codes: ['cg', 'gb', 'cm', 'ao'],
   },
   {
+    key: 'north',
+    label: { fr: 'Afrique du Nord', en: 'North Africa' },
+    codes: ['dz'],
+  },
+  {
     key: 'west',
     label: { fr: "Afrique de l'Ouest", en: 'West Africa' },
     codes: ['ng', 'bj', 'tg', 'sn', 'ci', 'gn'],
@@ -40,17 +45,17 @@ const REGIONS: {
   },
 ];
 
-// Fade the map out on every edge so it blends into the page (no hard cut)
-const FADE = [
-  'linear-gradient(to right, transparent, black 25%, black 92%, transparent)',
-  'linear-gradient(to bottom, transparent, black 10%, black 85%, transparent)',
-].join(', ');
-const FADE_MASK = {
-  WebkitMaskImage: FADE,
-  maskImage: FADE,
-  WebkitMaskComposite: 'source-in',
-  maskComposite: 'intersect',
-} as const;
+// Desktop only: fade the map out on every edge so it blends into the page.
+// On mobile the map sits in its own block above the list, at full opacity.
+// Class names are written in full so Tailwind can detect them.
+const MAP_WRAPPER_CLASS = [
+  'relative w-full h-[320px] mt-2',
+  'md:absolute md:inset-y-0 md:right-0 md:mt-0 md:h-auto md:w-[75%]',
+  'md:[mask-image:linear-gradient(to_right,transparent,black_25%,black_92%,transparent),linear-gradient(to_bottom,transparent,black_10%,black_85%,transparent)]',
+  'md:[-webkit-mask-image:linear-gradient(to_right,transparent,black_25%,black_92%,transparent),linear-gradient(to_bottom,transparent,black_10%,black_85%,transparent)]',
+  'md:[mask-composite:intersect]',
+  'md:[-webkit-mask-composite:source-in]',
+].join(' ');
 
 export default function CountriesLandingPage() {
   const params: any = useParams();
@@ -118,10 +123,7 @@ export default function CountriesLandingPage() {
           // White 1px skirt hides the sub-pixel seam with the next section
           className="relative overflow-hidden bg-white shadow-[0_1px_0_0_#fff]"
         >
-          <div
-            className="absolute inset-y-0 right-0 w-full md:w-[75%] opacity-40 md:opacity-100"
-            style={FADE_MASK}
-          >
+          <div className={MAP_WRAPPER_CLASS}>
             <WorldMap
               activeCodes={visible.map((item: any) => item.code)}
               hovered={hovered}

@@ -32,6 +32,7 @@ import deFlag from '@/public/assets/flag/de.png';
 import ciFlag from '@/public/assets/flag/ci.png';
 import snFlag from '@/public/assets/flag/sn.png';
 import gnFlag from '@/public/assets/flag/gn.png';
+import dzFlag from '@/public/assets/flag/dz.png';
 import cdLogo from '@/public/assets/logo/cd.png';
 import hrLogo from '@/public/assets/logo/hr.png';
 import aoLogo from '@/public/assets/logo/ao.png';
@@ -659,6 +660,15 @@ export const entities = [
     flag: gnFlag,
     logo: cdLogo,
   },
+  {
+    fr: 'Algérie',
+    en: 'Algeria',
+    name: 'ITM ALGERIE',
+    href: '/fr/dz',
+    code: 'dz',
+    flag: dzFlag,
+    logo: hrLogo,
+  },
 ];
 
 export const organisations: any = {
@@ -1031,6 +1041,28 @@ export const entitiesInfos: any = {
     address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
     phone: '+243 828 502 119',
     email: 'infocustomer@itmafrica.com',
+    social_medias: {
+      facebook: 'https://www.facebook.com/itmafrica',
+      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
+      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      twitter: 'https://twitter.com/ItmRdc',
+    },
+  },
+  dz: {
+    address: '272, Av. Colonel Mondjiba, Kinshasa-Ngaliema',
+    phone: '+243 828 502 119',
+    email: 'info.Algerie@itmafrica.com',
+    social_medias: {
+      facebook: 'https://www.facebook.com/itmafrica',
+      linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
+      instagram: 'https://www.instagram.com/itm_africa/?hl=fr',
+      twitter: 'https://twitter.com/ItmRdc',
+    },
+  },
+  gn: {
+    address: '272, Av. Colonel Mondjiba, Kinshasa-Ngaliema',
+    phone: '+243 828 502 119',
+    email: 'info.guinee@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
       linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',
