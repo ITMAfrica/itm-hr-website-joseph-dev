@@ -21,6 +21,7 @@ const COUNTRIES = [
   'sn',
   'de',
   'gn',
+  'dz',
 ];
 
 const LANGUAGES = ['en', 'fr'];
@@ -93,6 +94,8 @@ const COUNTRY_PRIORITY: Record<string, number> = {
   bi: 0.7,
   ci: 0.7,
   sn: 0.7,
+  gn: 0.7,
+  dz: 0.7,
   gb: 0.65,
   de: 0.6,
 };

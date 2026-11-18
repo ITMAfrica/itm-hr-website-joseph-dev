@@ -6702,5 +6702,763 @@
         }
       }
     }
+  },
+  "dz": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "WELCOME TO ITM HR ALGERIA",
+              "paragraph": "Elevating Algeria's dynamic business landscape through innovative HR solutions that blend local expertise with global best practices.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM ALGERIA"
+              }
+            },
+            {
+              "title": "WELCOME TO ITM HR ALGERIA",
+              "paragraph": "Elevating Algeria's dynamic business landscape through innovative HR solutions that blend local expertise with global best practices.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM ALGERIA"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM HR ALGERIA",
+          "paragraph": "ITM Algeria leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Algeria's vibrant and evolving economy.",
+          "btnMore": {
+            "text": "Discover more",
+            "link": "/en/dz/about-us",
+            "key": "about-us",
+            "title": "Learn more about ITM ALGERIA"
+          }
+        },
+        "meta": {
+          "title": "Welcome to ITM Algeria | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Algeria is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algeria",
+            "Human Resource Africa Algeria",
+            "Team Building Algeria",
+            "Training ITM Algeria",
+            "Human resource Algeria",
+            "Payroll management Algeria"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "About us | ITM Algeria Your strategic partner in HR solutions in Africa",
+          "description": "ITM Algeria is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algeria",
+            "ITM Africa",
+            "Human Resource Africa Algeria",
+            "Team Building Algeria",
+            "Training ITM Algeria",
+            "Human resource DRC Algeria",
+            "Payroll management Algeria"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Algeria is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM HR ALGERIA?",
+          "description": "Guided by our culture of excellence, we deliver innovative solutions and services tailored to the unique realities of each country",
+          "paragraph1": "ITM Algeria leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Algeria's vibrant and evolving economy.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/dz/contact-us"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Our mission",
+            "text": "Driving sustainable growth and operational excellence for all our stakeholders"
+          },
+          "vision": {
+            "title": "Our vision",
+            "text": "Building a successful future for all"
+          },
+          "values": {
+            "title": "Our values",
+            "text": "Quality - Integrity - Loyalty"
+          },
+          "right": {
+            "text": "ITM has a proven track record of successful placements, satisfied customers and years of industry experience. Our online recruitment dashboard revolutionizes the way job seekers find opportunities and recruiters connect with top talent.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Successful Placements Monthly",
+                "description": "We consistently connect businesses with top talent to meet their evolving needs."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Professionals Under Our Care",
+                "description": "From HR management to compliance, we handle your workforce so you can focus on growth."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Countries of Expertise",
+                "description": "With a strong presence across Africa, we offer deep local insights and a global perspective."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Trusted Business Partners",
+                "description": "Companies rely on us for HR solutions that drive performance and success."
+              }
+            }
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Algeria, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Algeria is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algeria",
+            "Human Resource Africa Algeria",
+            "Team Building Algeria",
+            "Training ITM Algeria",
+            "Human resource Algeria",
+            "Payroll management Algeria"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Training | ITM Algeria, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Algeria is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algeria",
+            "Human Resource Africa",
+            "Team Building Algeria",
+            "Training ITM Algeria",
+            "Human resource Algeria",
+            "Payroll management"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News | ITM Algeria, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Algeria is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algeria",
+            "Human Resource Africa Algeria",
+            "Team Building Algeria",
+            "Training ITM Algeria",
+            "Human resource Algeria",
+            "Payroll management Algeria"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Algeria, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Algeria is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Algeria",
+            "ITM Algeria",
+            "Human resource Algeria",
+            "Team Building Algeria",
+            "Training Algeria",
+            "Payroll management Algeria",
+            "contact ITM Algeria",
+            "contact ITM HR dakar"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM ALGERIA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
+  },
+  "gn": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "WELCOME TO ITM HR GUINEA",
+              "paragraph": "Elevating Guinea's dynamic business landscape through innovative HR solutions that blend local expertise with global best practices.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM GUINEA"
+              }
+            },
+            {
+              "title": "WELCOME TO ITM HR GUINEA",
+              "paragraph": "Elevating Guinea's dynamic business landscape through innovative HR solutions that blend local expertise with global best practices.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "Discover more",
+                "key": "about-us",
+                "title": "See details about ITM GUINEA"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "WHO ARE WE ?",
+          "subtitle": "ITM HR GUINEA",
+          "paragraph": "ITM Guinea leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Guinea's vibrant and evolving economy.",
+          "btnMore": {
+            "text": "Discover more",
+            "link": "/en/gn/about-us",
+            "key": "about-us",
+            "title": "Learn more about ITM GUINEA"
+          }
+        },
+        "meta": {
+          "title": "Welcome to ITM Guinea | Your strategic partner in HR solutions in Africa",
+          "description": "ITM Guinea is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinea",
+            "Human Resource Africa Guinea",
+            "Team Building Guinea",
+            "Training ITM Guinea",
+            "Human resource Guinea",
+            "Payroll management Guinea"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "About us | ITM Guinea Your strategic partner in HR solutions in Africa",
+          "description": "ITM Guinea is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinea",
+            "ITM Africa",
+            "Human Resource Africa Guinea",
+            "Team Building Guinea",
+            "Training ITM Guinea",
+            "Human resource DRC Guinea",
+            "Payroll management Guinea"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "ABOUT US",
+          "subtitle": "ITM HR Guinea is a part of ITM HR Group under ITM Holding, dedicated to delivering HR solutions that shape a better future for all."
+        },
+        "aboutEntity": {
+          "title": "WHAT TO KNOW ABOUT ITM HR GUINEA?",
+          "description": "Guided by our culture of excellence, we deliver innovative solutions and services tailored to the unique realities of each country",
+          "paragraph1": "ITM Guinea leads in transforming workforce management with over 15,000 professionals under our care. Our expertise spans strategic talent acquisition, comprehensive HR management, cutting-edge payroll solutions, Employer of Record (EOR), and expatriate services—delivering customized solutions that drive business growth and operational excellence in Guinea's vibrant and evolving economy.",
+          "paragraph2": "We specialize in the recruitment of local and expatriate staff (EOR), the placement and management of outsourced personnel, as well as outsourced payroll management. Our catalog of innovative training courses enables companies to develop their teams' skills and maintain their competitiveness in a constantly changing environment. Our solutions are designed to improve business performance while ensuring compliance with market best practices. As a strategic partner, we help our customers create work environments where employees can flourish while maximizing their engagement and productivity.",
+          "btnContact": {
+            "text": "Contact us",
+            "link": "/en/gn/contact-us"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Our mission",
+            "text": "Driving sustainable growth and operational excellence for all our stakeholders"
+          },
+          "vision": {
+            "title": "Our vision",
+            "text": "Building a successful future for all"
+          },
+          "values": {
+            "title": "Our values",
+            "text": "Quality - Integrity - Loyalty"
+          },
+          "right": {
+            "text": "ITM has a proven track record of successful placements, satisfied customers and years of industry experience. Our online recruitment dashboard revolutionizes the way job seekers find opportunities and recruiters connect with top talent.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Successful Placements Monthly",
+                "description": "We consistently connect businesses with top talent to meet their evolving needs."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Professionals Under Our Care",
+                "description": "From HR management to compliance, we handle your workforce so you can focus on growth."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Countries of Expertise",
+                "description": "With a strong presence across Africa, we offer deep local insights and a global perspective."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Trusted Business Partners",
+                "description": "Companies rely on us for HR solutions that drive performance and success."
+              }
+            }
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Guinea, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Guinea is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinea",
+            "Human Resource Africa Guinea",
+            "Team Building Guinea",
+            "Training ITM Guinea",
+            "Human resource Guinea",
+            "Payroll management Guinea"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Training | ITM Guinea, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Guinea is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinea",
+            "Human Resource Africa",
+            "Team Building Guinea",
+            "Training ITM Guinea",
+            "Human resource Guinea",
+            "Payroll management"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "News | ITM Guinea, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Guinea is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinea",
+            "Human Resource Africa Guinea",
+            "Team Building Guinea",
+            "Training ITM Guinea",
+            "Human resource Guinea",
+            "Payroll management Guinea"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Guinea, Your strategic partner in HR solutions in Africa",
+          "description": "ITM Guinea is your strategic partner in HR solutions in Africa. With a proven track record of managing over 15,000 employees in 18 countries, we tailor our services—from recruitment and employee management to training and HR compliance—to fit your specific needs.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Guinea",
+            "ITM Guinea",
+            "Human resource Guinea",
+            "Team Building Guinea",
+            "Training Guinea",
+            "Payroll management Guinea",
+            "contact ITM Guinea",
+            "contact ITM HR dakar"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Do you have any questions?",
+          "subtitle": "We'd love to hear from you, so contact us and we'll help you find your dream job or dream team today."
+        },
+        "about": {
+          "title1": "Contact us",
+          "title2": "ITM GUINEA",
+          "subtitle": "Ready to take the plunge? Contact us to discuss your project and find out how we can help you achieve your goals."
+        }
+      }
+    }
   }
 }

@@ -6683,5 +6683,759 @@
         }
       }
     }
+  },
+  "dz": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "BIENVENUE CHEZ ITM HR ALGÉRIE",
+              "paragraph": "Élever le paysage commercial dynamique de l'Algérie grâce à des solutions RH innovantes qui allient expertise locale et meilleures pratiques mondiales.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM ALGÉRIE"
+              }
+            },
+            {
+              "title": "BIENVENUE CHEZ ITM HR ALGÉRIE",
+              "paragraph": "Élever le paysage commercial dynamique de l'Algérie grâce à des solutions RH innovantes qui allient expertise locale et meilleures pratiques mondiales.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM ALGÉRIE"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "QUI SOMMES-NOUS ?",
+          "subtitle": "ITM HR ALGÉRIE",
+          "paragraph": "ITM Algérie est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre responsabilité. Notre expertise couvre l'acquisition stratégique de talents, la gestion RH complète, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle dans l'économie vibrante et évolutive de l'Algérie.",
+          "btnMore": {
+            "text": "En savoir plus",
+            "link": "/fr/dz/a-propos-de-nous",
+            "key": "a-propos-de-nous",
+            "title": "Voir les détails sur ITM ALGÉRIE"
+          }
+        },
+        "meta": {
+          "title": "Bienvenue chez ITM Algérie | Votre partenaire en Ressources humaines",
+          "description": "ITM Algérie est votre partenaire stratégique en solutions RH en Algérie. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algérie",
+            "Ressources humaines Algérie",
+            "Team Building",
+            "Formation Algérie",
+            "Gestion du payroll Algérie"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "A propos de nous | ITM Algérie, Votre partenaire en Ressources humaines",
+          "description": "ITM Algérie est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algérie",
+            "Ressources humaines",
+            "Team Building Algérie",
+            "Formation Algérie",
+            "Ressources humaines Algérie",
+            "Gestion du payroll Algérie"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Algérie fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
+        "aboutEntity": {
+          "title": "QUE RETENIR SUR ITM HR ALGÉRIE?",
+          "description": "Guidés par notre culture de l’excellence, nous proposons des solutions et des services innovants, adaptés aux réalités propres à chaque pays",
+          "paragraph1": "ITM Algérie est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre responsabilité. Notre expertise couvre l'acquisition stratégique de talents, la gestion RH complète, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle dans l'économie vibrante et évolutive de l'Algérie.",
+          "paragraph2": "Nous nous spécialisons dans le recrutement de personnel local et expatrié (EOR), le placement et la gestion de personnel en sous-traitance, ainsi que la gestion de la paie externalisée. Notre catalogue de formations innovantes, permet aux entreprises de développer les compétences de leurs équipes et de maintenir leur compétitivité dans un environnement en constante évolution. Nos solutions sont conçues pour améliorer la performance des entreprises tout en assurant la conformité avec les meilleures pratiques du marché. En tant que partenaire stratégique, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir tout en maximisant leur engagement et leur productivité.",
+          "btnContact": {
+            "text": "Contactez-nous",
+            "link": "/fr/dz/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Algérie, Votre partenaire en Ressources humaines",
+          "description": "ITM Algérie est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algérie",
+            "ITM Africa",
+            "Ressources humaines",
+            "Team Building",
+            "Formation Algérie",
+            "Ressources humaines Algérie",
+            "Gestion du payroll Algérie"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Formations | ITM Algérie, Votre partenaire en Ressources humaines",
+          "description": "ITM Algérie est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Algérie",
+            "Ressources humaines",
+            "Team Building",
+            "Formation",
+            "Ressources humaines Algérie",
+            "Gestion du payroll Algérie"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "Actualités | ITM Algérie, Votre partenaire en Ressources humaines",
+          "description": "ITM Algérie est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Algérie",
+            "ITM Africa Algérie",
+            "Ressources humaines Algérie",
+            "Team Building",
+            "Formation Algérie",
+            "Gestion du payroll Algérie"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Algérie, Votre partenaire en Ressources humaines",
+          "description": "ITM Algérie est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Algérie",
+            "ITM Algérie",
+            "Ressources humaines Algérie",
+            "Team Building Algérie",
+            "Formation Algérie",
+            "Gestion du payroll Algérie",
+            "contact ITM Algérie",
+            "contact ITM HR Algérie"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM ALGÉRIE",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+        }
+      }
+    }
+  },
+  "gn": {
+    "pages": {
+      "home": {
+        "banner": {
+          "items": [
+            {
+              "title": "BIENVENUE CHEZ ITM HR GUINÉE",
+              "paragraph": "Élever le paysage commercial dynamique de la Guinée grâce à des solutions RH innovantes qui allient expertise locale et meilleures pratiques mondiales.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM GUINÉE"
+              }
+            },
+            {
+              "title": "BIENVENUE CHEZ ITM HR GUINÉE",
+              "paragraph": "Élever le paysage commercial dynamique de la Guinée grâce à des solutions RH innovantes qui allient expertise locale et meilleures pratiques mondiales.",
+              "bgWhite": false,
+              "btnMore": {
+                "text": "En savoir plus",
+                "key": "a-propos-de-nous",
+                "title": "Voir les détails sur ITM GUINÉE"
+              }
+            }
+          ]
+        },
+        "about": {
+          "title": "QUI SOMMES-NOUS ?",
+          "subtitle": "ITM HR GUINÉE",
+          "paragraph": "ITM Guinée est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre responsabilité. Notre expertise couvre l'acquisition stratégique de talents, la gestion RH complète, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle dans l'économie vibrante et évolutive de la Guinée.",
+          "btnMore": {
+            "text": "En savoir plus",
+            "link": "/fr/gn/a-propos-de-nous",
+            "key": "a-propos-de-nous",
+            "title": "Voir les détails sur ITM GUINÉE"
+          }
+        },
+        "meta": {
+          "title": "Bienvenue chez ITM Guinée | Votre partenaire en Ressources humaines",
+          "description": "ITM Guinée est votre partenaire stratégique en solutions RH en Guinée. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinée",
+            "Ressources humaines Guinée",
+            "Team Building",
+            "Formation Guinée",
+            "Gestion du payroll Guinée"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "A propos de nous | ITM Guinée, Votre partenaire en Ressources humaines",
+          "description": "ITM Guinée est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinée",
+            "Ressources humaines",
+            "Team Building Guinée",
+            "Formation Guinée",
+            "Ressources humaines Guinée",
+            "Gestion du payroll Guinée"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "A PROPOS DE NOUS",
+          "subtitle": "ITM HR Guinée fait partie du Groupe ITM HR sous ITM Holding, dédié à fournir des solutions RH qui façonnent un meilleur avenir pour tous."
+        },
+        "aboutEntity": {
+          "title": "QUE RETENIR SUR ITM HR GUINÉE?",
+          "description": "Guidés par notre culture de l’excellence, nous proposons des solutions et des services innovants, adaptés aux réalités propres à chaque pays",
+          "paragraph1": "ITM Guinée est leader dans la transformation de la gestion de la main-d'œuvre avec plus de 15 000 professionnels sous notre responsabilité. Notre expertise couvre l'acquisition stratégique de talents, la gestion RH complète, les solutions de paie de pointe, les services d'Employeur de Record (EOR) et les services d'expatriés—offrant des solutions personnalisées qui stimulent la croissance commerciale et l'excellence opérationnelle dans l'économie vibrante et évolutive de la Guinée.",
+          "paragraph2": "Nous nous spécialisons dans le recrutement de personnel local et expatrié (EOR), le placement et la gestion de personnel en sous-traitance, ainsi que la gestion de la paie externalisée. Notre catalogue de formations innovantes, permet aux entreprises de développer les compétences de leurs équipes et de maintenir leur compétitivité dans un environnement en constante évolution. Nos solutions sont conçues pour améliorer la performance des entreprises tout en assurant la conformité avec les meilleures pratiques du marché. En tant que partenaire stratégique, nous aidons nos clients à créer des environnements de travail où les collaborateurs peuvent s'épanouir tout en maximisant leur engagement et leur productivité.",
+          "btnContact": {
+            "text": "Contactez-nous",
+            "link": "/fr/gn/contactez-nous"
+          }
+        },
+        "metrics": {
+          "mission": {
+            "title": "Notre Mission",
+            "text": "Accroître et Pérenniser la capacité opérationnelle de nos parties prennantes."
+          },
+          "vision": {
+            "title": "Notre vision",
+            "text": "Œuvrer à un avenir de réussite pour tous."
+          },
+          "values": {
+            "title": "Nos valeurs",
+            "text": "Loyauté - Intégrité - Qualité"
+          },
+          "right": {
+            "text": "ITM a fait ses preuves en matière de placements réussis, de clients satisfaits et d'années d'expérience dans l'industrie. Notre tableau de bord de recrutement en ligne révolutionne la façon dont les chercheurs d'emploi trouvent des opportunités et dont les recruteurs entrent en contact avec les meilleurs talents.",
+            "number": {
+              "recruiting": {
+                "number": "+500",
+                "title": "Placements chaque mois",
+                "description": "Nous mettons les entreprises en contact avec les meilleurs talents pour répondre à leurs besoins en constante évolution."
+              },
+              "agents": {
+                "number": "+15000",
+                "title": "Agents sous notre gestion",
+                "description": "De la gestion RH à la conformité, nous nous occupons de vos effectifs afin que vous puissiez vous concentrer sur votre croissance."
+              },
+              "country": {
+                "number": "+20",
+                "title": "Pays d'expertise",
+                "description": "Avec une forte présence dans toute l'Afrique, nous offrons des informations locales approfondies et une perspective globale."
+              },
+              "company": {
+                "number": "+700",
+                "title": "Entreprises partenaires",
+                "description": "Les entreprises nous font confiance pour des solutions RH qui favorisent la performance et la réussite."
+              }
+            }
+          }
+        }
+      },
+      "services": {
+        "meta": {
+          "title": "Services | ITM Guinée, Votre partenaire en Ressources humaines",
+          "description": "ITM Guinée est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinée",
+            "ITM Africa",
+            "Ressources humaines",
+            "Team Building",
+            "Formation Guinée",
+            "Ressources humaines Guinée",
+            "Gestion du payroll Guinée"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "training": {
+        "meta": {
+          "title": "Formations | ITM Guinée, Votre partenaire en Ressources humaines",
+          "description": "ITM Guinée est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM",
+            "ITM Africa Guinée",
+            "Ressources humaines",
+            "Team Building",
+            "Formation",
+            "Ressources humaines Guinée",
+            "Gestion du payroll Guinée"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "news": {
+        "meta": {
+          "title": "Actualités | ITM Guinée, Votre partenaire en Ressources humaines",
+          "description": "ITM Guinée est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Guinée",
+            "ITM Africa Guinée",
+            "Ressources humaines Guinée",
+            "Team Building",
+            "Formation Guinée",
+            "Gestion du payroll Guinée"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        }
+      },
+      "contact": {
+        "meta": {
+          "title": "Contact | ITM Guinée, Votre partenaire en Ressources humaines",
+          "description": "ITM Guinée est votre partenaire stratégique en solutions RH en Afrique. Avec une expérience solide dans la gestion de plus de 15 000 employés répartis dans 18 pays, nous personnalisons nos services—recrutement, placement du personel, formation et conformité RH—pour répondre précisément à vos besoins.",
+          "generator": "Next.js",
+          "applicationName": "ITM Africa",
+          "referrer": "origin-when-cross-origin",
+          "keywords": [
+            "ITM Africa Guinée",
+            "ITM Guinée",
+            "Ressources humaines Guinée",
+            "Team Building Guinée",
+            "Formation Guinée",
+            "Gestion du payroll Guinée",
+            "contact ITM Guinée",
+            "contact ITM HR Guinée"
+          ],
+          "authors": [
+            {
+              "name": "Amos Bafuna"
+            },
+            {
+              "name": "Jeereq Minganda"
+            }
+          ],
+          "creator": "Amos Bafuna",
+          "publisher": "Amos Bafuna",
+          "formatDetection": {
+            "email": false,
+            "address": false,
+            "telephone": false
+          },
+          "robots": {
+            "index": true,
+            "follow": true,
+            "nocache": true,
+            "googleBot": {
+              "index": true,
+              "follow": false,
+              "noimageindex": true,
+              "max-video-preview": -1,
+              "max-image-preview": "large",
+              "max-snippet": -1
+            }
+          }
+        },
+        "banner": {
+          "title": "Vous avez des questions?",
+          "subtitle": "Nous sommes heureux de vous répondre, contactez-nous et nous vous aiderons à trouver dès aujourd'hui l'emploi de vos rêves ou l'équipe de vos rêves."
+        },
+        "about": {
+          "title1": "Contactez-nous",
+          "title2": "ITM GUINÉE",
+          "subtitle": "Prêt à franchir le pas ? Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs."
+        }
+      }
+    }
   }
 }

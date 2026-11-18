@@ -14,19 +14,17 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
     <section className="bg-white py-4">
       <StaggeredFadeIn>
         <div className="flex items-center md:w-10/12 w-11/12 mx-auto py-16">
-          <div className="m-auto">
-            <div className="md:flex justify-between md:mb-16 mb-10">
-              <div>
+          <div className="w-full">
+            <div className="lg:flex justify-between gap-10 lg:mb-16 mb-10">
+              <div className="shrink-0">
                 <SectionTitle text="ITM HR" />
-                <h1 className="text-blue_itm_good text-4xl font-bold mb-4">
+                <h1 className="text-blue_itm_good text-3xl md:text-4xl font-bold mb-4">
                   {data.subtitle}
                 </h1>
               </div>
-              <p className="md:w-[50%] text-xl font-sans font-lg">
-                {data.text}
-              </p>
+              <p className="lg:w-[55%] text-lg md:text-xl">{data.text}</p>
             </div>
-            <div className="w-full md:flex justify-between flex-wrap">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {data.cards.map((item: any, index: number) => {
                 return <CardLandingPage {...item} key={index} index={index} />;
               })}
