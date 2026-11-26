@@ -4,6 +4,7 @@ import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md';
+import RevealLines from './RevealLines';
 
 export default function CardEntity({
   name,
@@ -102,9 +103,10 @@ export default function CardEntity({
               <h2 className="text-4xl titleAnimation w-full mx-auto font-bold text-blue_itm_primary pb-3">
                 {name}
               </h2>
-              <p className="w-full hideDescription mx-auto font-open sm:text-medium">
-                {description}
-              </p>
+              <RevealLines
+                text={description}
+                className="w-full mx-auto font-open sm:text-medium"
+              />
             </div>
           </div>
         </div>

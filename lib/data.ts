@@ -52,12 +52,12 @@ import personnelService from '@/public/assets/services/personnel.png';
 import formationService from '@/public/assets/services/formation.png';
 import avatar from '@/public/assets/bg/bg.avatar.png';
 import avatarWomen from '@/public/assets/bg/bg.avatar.women.png';
-import hr from '@/public/assets/entities/hr.jpg';
+import hr from '@/public/assets/entities/hr.webp';
 import jamon from '@/public/assets/entities/jamon.jpg';
 import ifs from '@/public/assets/entities/ifs.jpg';
 import ibs from '@/public/assets/entities/ibs.jpg';
 import maintenance from '@/public/assets/entities/maintenance.jpg';
-import environment from '@/public/assets/entities/environment.jpg';
+import environment from '@/public/assets/entities/environment.webp';
 import geo from '@/public/assets/entities/geo.jpg';
 import vendis from '@/public/assets/entities/vendis.jpg';
 
@@ -1038,9 +1038,10 @@ export const entitiesInfos: any = {
     },
   },
   sn: {
-    address: '575 Av Kasavubu, Quartier Makutano, Lubumbashi',
-    phone: '+243 828 502 119',
-    email: 'infocustomer@itmafrica.com',
+    address:
+      "Point E, Boulevard de l'Est, Angle Rue 9 Immeuble El Hadj Omar Dia, 2e étage",
+    phone: '+221 33 892 08 34',
+    email: 'info.senegal@itmafrica.com',
     social_medias: {
       facebook: 'https://www.facebook.com/itmafrica',
       linkedin: 'https://www.linkedin.com/in/itm-africa-7526a6162/',

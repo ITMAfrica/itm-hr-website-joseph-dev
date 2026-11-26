@@ -14,10 +14,10 @@ export default function HomePartners({ params }: { params: any }) {
     <section className="flex items-center py-20">
       <div className="w-full">
         <div className="md:w-9/12 w-11/12 mx-auto md:pb-12 pb-6">
-          <h1 className="md:text-5xl text-3xl font-bold text-blue_itm_primary text-center mb-4">
+          <h1 data-reveal className="md:text-5xl text-3xl font-bold text-blue_itm_primary text-center mb-4">
             {data.title}
           </h1>
-          <h3 className="text-xl text-center md:w-3/5 w-full mx-auto font-open text-black_itm">
+          <h3 data-reveal className="text-xl text-center md:w-3/5 w-full mx-auto font-open text-black_itm">
             {data.subtitle}
           </h3>
         </div>

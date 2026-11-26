@@ -20,7 +20,7 @@ export default function NewsPageSecondary({
     <section className="w-full bg-white lg:py-20 py-10">
       <div className="w-11/12 lg:w-10/12 mx-auto h-full ">
         <main className="w-full mr-0">
-          <header className="h-fit w-full flex justify-between items-center  mb-5">
+          <header data-reveal className="h-fit w-full flex justify-between items-center  mb-5">
             <div className="w-fit items-center flex flex-wrap ">
               <h1 className="font-bold text-blue_itm_good w-full pb-3 text-3xl">
                 Autres nouvelles
@@ -94,7 +94,7 @@ export default function NewsPageSecondary({
             ))}
           </Carousel>
         </main>
-        <aside className="h-fit w-full pt-10">
+        <aside data-reveal className="h-fit w-full pt-10">
           <div className="W-full flex flex-wrap justify-between">
             <CardNews index={0} />
             <CardNews index={1} />

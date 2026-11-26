@@ -8,7 +8,7 @@ export default function TrainingPagePastEventsSection({
   return (
     <section className="py-16">
       <div className="w-10/12 mx-auto">
-        <div className="w-1/3">
+        <div data-reveal className="w-1/3">
           <h5 className="font-bold text-blue_itm_primary text-4xl mb-2">
             Nos événements passés
           </h5>

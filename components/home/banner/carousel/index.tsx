@@ -36,7 +36,7 @@ export default function HomePageBanner({
   const data = dictionary?.[code]?.pages.home.banner.items;
 
   return (
-    <section className="h-full py-5">
+    <section className="h-full py-5 lg:h-auto">
       <Swiper
         // install Swiper modules
         modules={[Pagination, Autoplay, A11y, Parallax, EffectFade]}

@@ -15,7 +15,7 @@ export default function WhyUsLandingPageSection({ params }: { params: any }) {
       <StaggeredFadeIn>
         <div className="flex items-center md:w-10/12 w-11/12 mx-auto py-16">
           <div className="w-full">
-            <div className="lg:flex justify-between gap-10 lg:mb-16 mb-10">
+            <div data-reveal className="lg:flex justify-between gap-10 lg:mb-16 mb-10">
               <div className="shrink-0">
                 <SectionTitle text="ITM HR" />
                 <h1 className="text-blue_itm_good text-3xl md:text-4xl font-bold mb-4">

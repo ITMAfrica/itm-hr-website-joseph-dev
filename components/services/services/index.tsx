@@ -23,7 +23,7 @@ export default function ServicesPageServices({ params }: { params: any }) {
   const [toShow] = useState(4);
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <section className="w-full md:min-h-[80vh] flex items-center relative">
+    <section data-reveal="fade" className="w-full md:min-h-[80vh] flex items-center relative">
       <div className="w-11/12 lg:w-10/12 shadow-2xl shadow-black rounded-2xl my-14 overflow-hidden mx-auto relative top-0 min-h-[80vh] lg:min-h-[77vh] left-0 right-0 bottom-0">
         <Image
           alt=""

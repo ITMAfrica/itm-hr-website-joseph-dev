@@ -19,10 +19,10 @@ export default function ContactPageQuestionsSection({
       <div className="w-full h-[350px] bg-no-repeat bg-cover bg-[url('../public/pages/contact/image_bg.webp')]"></div>
       <section className="md:flex justify-around lg:w-10/12 w-11/12 mx-auto -translate-y-72 text-white md:h-[400px] h-[650px]">
         <div className="md:w-1/2">
-          <h2 className="sm:text-5xl text-3xl font-bold">{data.title}</h2>
-          <h4 className="sm:text-5xl text-3xl font-bold">{data.subtitle}</h4>
-          <p className="w-9/12 pt-5 pb-10 text-lg">{data.paragraph}</p>
-          <div className="w-fit hidden md:flex justify-start">
+          <h2 data-reveal className="sm:text-5xl text-3xl font-bold">{data.title}</h2>
+          <h4 data-reveal className="sm:text-5xl text-3xl font-bold">{data.subtitle}</h4>
+          <p data-reveal className="w-9/12 pt-5 pb-10 text-lg">{data.paragraph}</p>
+          <div data-reveal className="w-fit hidden md:flex justify-start">
             <div>
               <div className="flex justify-end items-end">
                 <div className="relative md:w-[170px] w-[75px] h-fit shadow-xl rounded-md mr-3">
@@ -82,7 +82,7 @@ export default function ContactPageQuestionsSection({
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 bg-white rounded-xl">
+        <div data-reveal className="md:w-1/2 bg-white rounded-xl">
           <ContactPageForm params={params} />
         </div>
       </section>

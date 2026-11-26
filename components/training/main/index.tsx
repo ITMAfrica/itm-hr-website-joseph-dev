@@ -4,7 +4,7 @@ export default function TrainingPageMainSection({ params }: { params: any }) {
   return (
     <section className="py-16">
       <div className="w-9/12 mx-auto">
-        <div className="flex justify-between">
+        <div data-reveal className="flex justify-between">
           <h3 className="font-bold text-4xl text-blue_itm_primary">
             Nos formations populaires
           </h3>

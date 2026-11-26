@@ -8,13 +8,13 @@ export default function HomeTestimonies({ params }: { params: any }) {
   return (
     <section className="overflow-x-hidden bg-white py-8 md:pb-14 md:pt-20">
       <div className="mx-auto max-w-[1600px] px-4 sm:px-6">
-        <h2 className="mx-auto max-w-3xl text-center text-4xl font-bold text-blue_itm_primary md:text-5xl">
+        <h2 data-reveal className="mx-auto max-w-3xl text-center text-4xl font-bold text-blue_itm_primary md:text-5xl">
           {data.title}
         </h2>
-        <p className="mx-auto mt-3 max-w-xl text-center text-sm text-gray_itm md:text-base">
+        <p data-reveal className="mx-auto mt-3 max-w-xl text-center text-sm text-gray_itm md:text-base">
           {data.subtitle}
         </p>
-        <div className="mx-auto mt-8 w-full max-w-6xl md:mt-12 md:w-11/12 lg:w-10/12">
+        <div data-reveal className="mx-auto mt-8 w-full max-w-6xl md:mt-12 md:w-11/12 lg:w-10/12">
           <TestimoniesCarousel />
         </div>
       </div>
