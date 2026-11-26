@@ -17,10 +17,10 @@ export default function Teams({ toShow = 5, params, team }: any) {
         <div className="w-fit mx-auto">
           <SectionTitle text={data.title} />
         </div>
-        <h1 className="font-bold text-4xl text-center text-blue_itm_primary pb-5">
+        <h1 data-reveal className="font-bold text-4xl text-center text-blue_itm_primary pb-5">
           {data.subtitle}
         </h1>
-        <main className="w-full flex justify-between relative">
+        <main data-reveal className="w-full flex justify-between relative">
           <Carousel
             activeSlideIndex={activeSlide}
             containerProps={{

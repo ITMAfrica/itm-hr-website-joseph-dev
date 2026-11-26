@@ -52,7 +52,7 @@ export default function CarouselItem({
       <div className="absolute inset-0 overflow-hidden">
         <Image
           src={desktopSrc}
-          className="hidden object-cover object-center sm:block"
+          className="hidden object-cover object-right sm:block"
           fill
           alt=""
           priority={index === 0}

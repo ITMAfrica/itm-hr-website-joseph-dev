@@ -5,6 +5,7 @@ import { type Locale } from '@/i18n-config';
 import localFont from 'next/font/local';
 import { Open_Sans } from 'next/font/google';
 import Footer from '@/components/global/footer';
+import ScrollReveal from '@/components/global/scroll_reveal';
 import { Analytics } from '@vercel/analytics/next';
 import { generateMetadata as generateSEOMetadata } from '@/lib/metadata';
 import { getDictionary } from '@/get-dictionary';
@@ -106,6 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {children}
         </main>
         <Footer params={resolvedParams} />
+        <ScrollReveal />
         <GoogleAnalytics gaId="AW-16880582497" />
         {/* Google tag (gtag.js) - AW-17979050212 */}
         <Script

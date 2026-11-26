@@ -10,7 +10,7 @@ export default function TrainingPageTeamBuildingSection({
   return (
     <section className="bg-white py-16">
       <div className="w-10/12 mx-auto">
-        <div className="w-2/5 mx-auto text-center mb-16">
+        <div data-reveal className="w-2/5 mx-auto text-center mb-16">
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
             LOREM IPSUME
           </h2>
@@ -19,7 +19,7 @@ export default function TrainingPageTeamBuildingSection({
           </h1>
         </div>
         <section className="w-10/12 mx-auto">
-          <div className="flex justify-between mb-10">
+          <div data-reveal className="flex justify-between mb-10">
             <div className="w-1/2 mr-5">
               <h3 className="text-3xl font-bold text-blue_itm_primary">
                 Lorem ipsume
@@ -46,7 +46,7 @@ export default function TrainingPageTeamBuildingSection({
             </div>
           </div>
 
-          <div className="flex justify-between">
+          <div data-reveal className="flex justify-between">
             <div className="w-1/2">
               <div className="w-[500px]">
                 <Image

@@ -14,11 +14,11 @@ export default function AboutPageAbout({ params }: any) {
       <div className="w-11/12 lg:w-10/12 mx-auto flex lg:flex-nowrap items-start flex-wrap">
         <article className="md:w-1/2 w-full lg:pr-20 pr-0">
           <SectionTitle text={data.title} />
-          <h1 className="font-bold md:text-4xl text-2xl pt-3 lg:pb-0 pb-3 text-blue_itm_primary">
+          <h1 data-reveal className="font-bold md:text-4xl text-2xl pt-3 lg:pb-0 pb-3 text-blue_itm_primary">
             {data.description}
           </h1>
         </article>
-        <article className="md:w-1/2 w-full">
+        <article data-reveal className="md:w-1/2 w-full">
           <p className="font-open sm:text-lg">{data.paragraph1}</p>
           <p className="pt-3 font-open sm:text-lg">{data.paragraph2}</p>
           <Link

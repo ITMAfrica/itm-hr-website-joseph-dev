@@ -11,11 +11,11 @@ export default function ServicesPageAbout({ params }: any) {
       <div className="w-11/12 lg:w-10/12 mx-auto flex lg:flex-nowrap items-start flex-wrap">
         <article className="lg:w-1/2 w-full lg:pr-20 pr-0">
           <SectionTitle text={data.title} />
-          <h1 className="font-bold text-4xl lg:text-5xl pt-3 text-blue_itm_primary">
+          <h1 data-reveal className="font-bold text-4xl lg:text-5xl pt-3 text-blue_itm_primary">
             {data.subtitle}
           </h1>
         </article>
-        <article className="lg:w-1/2 w-full lg:pt-0 pt-3">
+        <article data-reveal className="lg:w-1/2 w-full lg:pt-0 pt-3">
           <p className="font-open text-lg">{data.paragraph}</p>
           <p className="pt-3 font-open text-lg">{data.paragraph2}</p>
           <Link

@@ -33,7 +33,7 @@ export default function BannerLandingPage({ params }: { params: any }) {
                 >
                   <Link
                     href="#countries"
-                    className="block w-fit p-3 text-lg font-semibold text-center text-blue_itm_good bg-white hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-white hover:border-blue_itm_aqua_marine"
+                    className="block w-fit whitespace-pre-line px-6 py-2 leading-tight text-sm font-semibold text-center text-blue_itm_good bg-white hover:bg-blue_itm_aqua_marine hover:text-white border rounded-full border-white hover:border-blue_itm_aqua_marine"
                   >
                     {data.btn}
                   </Link>

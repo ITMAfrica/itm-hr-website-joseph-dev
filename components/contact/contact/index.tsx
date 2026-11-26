@@ -37,7 +37,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
           <h5 className="text-2xl font-bold text-center">{data.email}</h5>
           <div className="flex justify-center">
             <Link
-              href={`mailto:info@itmafrica.com`}
+              href={`mailto:${entitiesInfos[code].email}`}
               className="text-lg text-center mt-4 bg-blue_itm_primary text-white py-2 px-3 rounded font-open"
             >
               {entitiesInfos[code].email}
@@ -61,7 +61,7 @@ export default function ContactPageContactSection({ params }: { params: any }) {
 
 export function ContactCard({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex items-center justify-center lg:w-[31%] md:w-[48%] w-full mb-6 lg:mb-0 rounded-lg border bg-blue_itm_primary/5 h-[300px]">
+    <div data-reveal className="flex items-center justify-center lg:w-[31%] md:w-[48%] w-full mb-6 lg:mb-0 rounded-lg border bg-blue_itm_primary/5 h-[300px]">
       <div className="w-full h-fit p-8">{children}</div>
     </div>
   );

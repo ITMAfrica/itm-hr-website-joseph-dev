@@ -37,7 +37,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
   return (
     <section className="h-fit overflow-x-hidden bg-[url('../public/pages/print.png')] bg-right bg-no-repeat">
       <main className="mx-auto flex w-11/12 flex-col items-center gap-10 py-10 lg:w-10/12 lg:flex-row lg:items-center lg:gap-10 lg:py-20 xl:gap-14">
-        <div className="relative mx-auto aspect-square w-full max-w-[400px] shrink-0 lg:mx-0 lg:w-[40%] lg:max-w-[460px]">
+        <div data-reveal className="relative mx-auto aspect-square w-full max-w-[400px] shrink-0 lg:mx-0 lg:w-[40%] lg:max-w-[460px]">
           {circles.map((circle) => (
             <div
               key={circle.key}
@@ -56,11 +56,11 @@ export default function AboutPageMetrics({ params }: { params: any }) {
         </div>
 
         <div className="w-full min-w-0 lg:w-[60%]">
-          <p className="font-open text-base text-black_itm/70 lg:text-lg">
+          <p data-reveal className="font-open text-base text-black_itm/70 lg:text-lg">
             {data.right.text}
           </p>
           <div className="flex w-full flex-wrap items-start justify-between pt-5">
-            <div className="w-1/2 pt-5 pr-5">
+            <div data-reveal className="w-1/2 pt-5 pr-5">
               <h4 className="text-4xl font-extrabold text-blue_itm_aqua_marine lg:text-6xl">
                 {data.right.number.agents.number}
               </h4>
@@ -71,7 +71,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
                 {data.right.number.agents.description}
               </p>
             </div>
-            <div className="w-1/2 pt-5 pr-5">
+            <div data-reveal className="w-1/2 pt-5 pr-5">
               <h4 className="text-4xl font-extrabold text-blue_itm_aqua_marine lg:text-6xl">
                 {data.right.number.recruiting.number}
               </h4>
@@ -82,7 +82,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
                 {data.right.number.recruiting.description}
               </p>
             </div>
-            <div className="w-1/2 pt-5 pr-5">
+            <div data-reveal className="w-1/2 pt-5 pr-5">
               <h4 className="text-4xl font-extrabold text-blue_itm_aqua_marine lg:text-6xl">
                 {data.right.number.country.number}
               </h4>
@@ -93,7 +93,7 @@ export default function AboutPageMetrics({ params }: { params: any }) {
                 {data.right.number.country.description}
               </p>
             </div>
-            <div className="w-1/2 pt-5 pr-5">
+            <div data-reveal className="w-1/2 pt-5 pr-5">
               <h4 className="text-4xl font-extrabold text-blue_itm_aqua_marine lg:text-6xl">
                 {data.right.number.company.number}
               </h4>

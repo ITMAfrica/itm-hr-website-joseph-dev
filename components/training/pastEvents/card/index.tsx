@@ -3,7 +3,7 @@ import image from '@/public/pages/home/news/news.png';
 
 export default function TrainingEventCard() {
   return (
-    <article className="lg:w-[31%] md:w-[48%] shadow-xl hover:shadow-2xl rounded-xl w-full bg-white">
+    <article data-reveal className="lg:w-[31%] md:w-[48%] shadow-xl hover:shadow-2xl rounded-xl w-full bg-white">
       <div className="w-full h-fit">
         <Image
           src={image}

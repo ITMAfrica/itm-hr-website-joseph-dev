@@ -6,7 +6,7 @@ export default function TrainingPageAbout({ params }: { params: any }) {
   return (
     <section className="about-page-bg-aside bg-white bg-left bg-no-repeat py-10 lg:py-20">
       <div className="w-10/12 mx-auto">
-        <div className="w-3/5 mx-auto text-center mb-16">
+        <div data-reveal className="w-3/5 mx-auto text-center mb-16">
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
             LOREM IPSUME
           </h2>
@@ -19,7 +19,7 @@ export default function TrainingPageAbout({ params }: { params: any }) {
           </p>
         </div>
         <div className="w-10/12 mx-auto">
-          <article className="flex justify-between mb-10">
+          <article data-reveal className="flex justify-between mb-10">
             <div className="w-[68%] py-10 px-8 flex shadow-lg rounded-lg">
               <div>
                 <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-4">
@@ -54,7 +54,7 @@ export default function TrainingPageAbout({ params }: { params: any }) {
             </div>
           </article>
 
-          <article className="flex justify-between">
+          <article data-reveal className="flex justify-between">
             <div className="w-[68%] py-10 px-8 flex shadow-lg bg-blue_itm_aqua_marine/10 rounded-lg">
               <div>
                 <h5 className="w-3/4 font-bold text-blue_itm_primary text-3xl mb-4">

@@ -18,7 +18,7 @@ export default function ContactPageAboutSection({ params }: { params: any }) {
     <section className="h-fit bg-white md:py-16 py-10 bg-[url('../public/pages/print.png')] bg-left bg-no-repeat">
       <div className="flex lg:w-10/12 w-11/12 mx-auto">
         <div className="md:w-1/2">
-          <div className="md:mr-14">
+          <div data-reveal className="md:mr-14">
             <h1 className="md:text-6xl text-4xl text-blue_itm_primary font-bold">
               {dynamicContent.title1}
             </h1>
@@ -31,7 +31,7 @@ export default function ContactPageAboutSection({ params }: { params: any }) {
           </div>
         </div>
         <div className="md:w-1/2">
-          <div className="w-fit md:w-full hidden md:flex mx-auto justify-center">
+          <div data-reveal className="w-fit md:w-full hidden md:flex mx-auto justify-center">
             <div>
               <div className="flex justify-end items-end">
                 <div className="relative md:w-[205px] w-[120px] h-fit shadow-xl rounded-md mr-3">

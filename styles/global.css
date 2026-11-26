@@ -68,27 +68,34 @@
 }
 
 .fromToImage {
-  animation: fromTo;
-  animation-duration: 1000ms;
-  animation-timing-function: ease-in-out;
+  animation: entityImageAnimation 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .entityLogoAnimation {
-  animation: hideToShow;
-  animation-duration: 2500ms;
-  animation-timing-function: ease-in-out;
+  animation: hideToShow 700ms ease-out 150ms both;
 }
 
 .titleAnimation {
-  animation: entityTitleAnimation;
-  animation-duration: 1000ms;
-  animation-timing-function: ease-in-out;
+  animation: entityTextAnimation 700ms cubic-bezier(0.22, 1, 0.36, 1) 100ms both;
 }
 
-.hideDescription {
-  animation: entityDescriptionAnimation;
-  animation-duration: 1000ms;
-  animation-timing-function: ease-in-out;
+.revealLineWord {
+  display: inline-block;
+  animation: entityTextAnimation 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Tant que la section n'est pas à l'écran, ses animations restent en attente */
+.entity-waiting :is(.fromToImage, .entityLogoAnimation, .titleAnimation, .revealLineWord) {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fromToImage,
+  .entityLogoAnimation,
+  .titleAnimation,
+  .revealLineWord {
+    animation: none;
+  }
 }
 
 @keyframes hideToShow {
@@ -101,35 +108,27 @@
   }
 }
 
-@keyframes fromTo {
+@keyframes entityImageAnimation {
   from {
-    top: -100%;
-    left: -40%;
+    opacity: 0.3;
+    transform: scale(1.04);
   }
 
   to {
-    top: 0%;
-    left: 0;
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
-@keyframes entityTitleAnimation {
+@keyframes entityTextAnimation {
   from {
-    transform: translate(-100px);
+    opacity: 0;
+    transform: translateY(14px);
   }
 
   to {
-    transform: translate(0);
-  }
-}
-
-@keyframes entityDescriptionAnimation {
-  from {
-    transform: translate(100px);
-  }
-
-  to {
-    transform: translate(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -362,6 +361,15 @@
 .home-banner-slide {
   height: 100%;
   box-sizing: border-box;
+}
+
+/* Grand écran : le cadre reprend le format des images pour ne pas les rogner */
+@media (min-width: 1024px) {
+  .home-banner-swiper {
+    height: auto;
+    aspect-ratio: 1927 / 816;
+    min-height: 440px;
+  }
 }
 
 .home-banner-swiper .swiper-pagination-bullet {

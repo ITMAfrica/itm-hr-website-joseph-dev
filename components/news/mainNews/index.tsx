@@ -6,7 +6,7 @@ import CardNews from "../card";
 export default function NewsPageMain() {
     return <section className="w-full bg-white lg:py-20 py-10">
         <div className="w-11/12 lg:w-10/12 mx-auto h-full flex lg:flex-nowrap flex-wrap">
-            <main className="w-full lg:w-9/12  lg:mr-10 mr-0">
+            <main data-reveal className="w-full lg:w-9/12  lg:mr-10 mr-0">
                 <header className="h-fit w-full">
                     <h1 className="font-bold text-blue_itm_good w-full pb-3 text-3xl">
                         A la une
@@ -31,7 +31,7 @@ export default function NewsPageMain() {
                     </p>
                 </div>
             </main>
-            <aside className="h-full w-full lg:w-3/12  lg:pt-0 pt-5 overflow-y-scroll scrollbar-thin">
+            <aside data-reveal className="h-full w-full lg:w-3/12  lg:pt-0 pt-5 overflow-y-scroll scrollbar-thin">
                 <header className="h-fit w-full">
                     <h1 className="font-bold text-blue_itm_good w-full pb-3 text-3xl">
                         les plus consultés

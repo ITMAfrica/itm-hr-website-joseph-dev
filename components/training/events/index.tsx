@@ -6,7 +6,7 @@ export default function TrainingPageEvents({ params }: { params: any }) {
   return (
     <section className="bg-white py-16">
       <div className="w-10/12 mx-auto">
-        <div className="w-2/5 mx-auto text-center mb-16">
+        <div data-reveal className="w-2/5 mx-auto text-center mb-16">
           <h2 className="font-bold text-xs text-blue_itm_aqua_marine">
             LOREM IPSUME
           </h2>
@@ -16,7 +16,7 @@ export default function TrainingPageEvents({ params }: { params: any }) {
         </div>
         <div className="w-9/12 mx-auto flex">
           <div className="w-1/2">
-            <article className="w-[400px] h-fit mx-auto">
+            <article data-reveal className="w-[400px] h-fit mx-auto">
               <div className="w-full">
                 <Image src={Image1} alt="Event" className="h-[450px]" />
               </div>
@@ -33,7 +33,7 @@ export default function TrainingPageEvents({ params }: { params: any }) {
           </div>
 
           <div className="w-1/2">
-            <article className="w-[400px] h-fit mx-auto">
+            <article data-reveal className="w-[400px] h-fit mx-auto">
               <h4 className="text-2xl text-blue_itm_primary font-bold mb-2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </h4>

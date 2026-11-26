@@ -10,14 +10,14 @@ export default function HomeMetrics({ params }: { params: any }) {
       <div className="flex items-center md:w-10/12 w-11/12 mx-auto py-16">
         <div className="m-auto">
           <div className="md:flex justify-between md:mb-16 mb-10 text-white">
-            <h3 className="text-4xl font-bold md:w-1/4 w-full mx-auto md:mx-0 ">
+            <h3 data-reveal className="text-4xl font-bold md:w-1/4 w-full mx-auto md:mx-0 ">
               {data.title}
             </h3>
-            <p className="md:w-2/5 w-full font-open text-lg">
+            <p data-reveal className="md:w-2/5 w-full font-open text-lg">
               {data.paragraph}
             </p>
           </div>
-          <div className="w-full flex justify-between flex-wrap">
+          <div data-reveal className="w-full flex justify-between flex-wrap">
             {data.metricsItems.map((item: any, index: number) => (
               <HomeMetricsCard {...item} id={`counter-${index}`} key={index} />
             ))}
